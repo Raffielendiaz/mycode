@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Form Registrasi</h2>
+
+    <label>Biodata</label>
+
+    <form action="">
+        <div class="container">
+            <table>
+                <tr>
+                    <td><label>Nama Mahasiswa</label></td>
+                    <td> : <input type="text" name="nama" placeholder="Nama Anda"></td>
+                </tr>
+
+                <tr>
+                    <td><label>No Induk Mahasiswa(NIM)</label></td>
+                    <td> : <input type="number" name="no_induk" readonly value="123456789"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Alamat Mahasiswa</label></td>
+                    <td> : <textarea name="alamat" cols="30" rows="10" placeholder="Alamat Anda"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label>Tanggal Lahir</label></td>
+                    <td> : <input type="date" name="text_form"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>
+                        <label> : <input type="radio"> Pria</label>
+                        <label><input type="radio"> Wanita</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Upload Foto</label></td>
+                    <td> : <input type="file" name="foto"></td>
+                </tr>
+
+                <tr>
+                    <td><label>URL Website</label></td>
+                    <td> : <input type="text" name="website" placeholder="URL Website Anda"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Perguruan Tinggi</label></td>
+                    <td> : <input type="text" name="perguruan_tinggi"></td>
+                </tr>
+            </table>
+        </div>
+
+        <label>Info Akun</label>
+        <div class="container">
+            <table>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td> : <input type="email" name="email" placeholder="Email Anda"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Username</label></td>
+                    <td> : <input type="text" name="username" placeholder="Username Anda"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Password</label></td>
+                    <td> : <input type="text" name="password" placeholder="Password Anda"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Ulangi Password</label></td>
+                    <td> : <input type="text" name="repeat_pass" placeholder="Password Anda"></td>
+                </tr>
+            </table>
+        </div>
+
+        <label>Kemampuan Dasar</label>
+        <div class="wrapper">
+            <div>
+                <input type="checkbox" name="html" value="html">
+                <label>HTML</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="css" value="css">
+                <label>CSS</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="javascript" value="javascript">
+                <label>Javascript</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="php" value="php">
+                <label>PHP</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="mysql" value="mysql">
+                <label>MySql</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="laravel" value="laravel">
+                <label>Laravel</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="react_native" value="react_native">
+                <label>React Native</label>
+            </div>
+        </div>
+
+        <button>Reset</button>
+        <button>Simpan</button>
+        <button>Button</button>
+    </form>
+
+
+</body>
+
+</html>
